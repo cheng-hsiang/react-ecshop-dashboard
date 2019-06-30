@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+    .navbar {
+        background-color: black;
+        color: #fff;
+        width: 100%;
+        display: flex;
+    }
+
+    .title {
+
+        font-size: 24px;
+        line-height: 29px;
+        padding: 21px;
+        
+    }
+
+    .title  a{
+         font-family: 'Raleway', Arial, sans-serif;
+        color: #fff;
+    }
+    .menu {}
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu li a {
+        font-size: 16px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 26px;
+        line-height: 19px;
+    }
+
+    .menu li :hover,
+    .menu li a:hover {
+        border-bottom: 3px solid#fff;
+
+    }
+
+    .container {
+        padding: 42px;
+        background-color: #F2F2F2;
+
+    }
+
+    .overviewTitle {
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: bold;
+    }
+
+    .overview {
+        margin-left: -12.516px;
+        margin-right: -12.516px;
+        /*bs3 col 處理小孩左右貼邊的方式*/
+    }
+
+    .total {
+        width: 31.13333%;
+        float: left;
+        text-align: center;
+        background-color: #fff;
+        padding: 30px 68px;
+        margin: 0 1.1%;
+        
+    }
+
+    /* .total:nth-child(2){
+       margin: 0px 1.5%;
+
+    } */
+    .total-title{
+        font-size: 19px;
+        margin-bottom: 16px;
+    }
+    .total-number{
+        font-size: 42px;
+        color:#7ED321 ;
+    }
+    .activity {
+        height: 304px;
+        background-color: #fff;
+        margin: 18px 0px;
+    }
+    .orderList{
+       
+        background-color: #fff;
+        padding: 30px 40px;
+    }
+    .orderList h2 {
+        margin-bottom: 30px ;
+    }
+    .order-img{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        float: left;
+    }
+    .orderList-item-detail{
+        float: left;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .orderList-item{
+        margin: 10px 20px 10px 10px;
+        position: relative;
+        width: 45%;
+    }
+    .orderList-item-title{
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .orderList-item-name,
+    .orderList-item-time{
+        font-size: 18px;
+       
+    }
+    .orderList-price{
+       position: absolute;
+       right: 10px;
+       bottom: 10px;
+    }
+    .orderList-price-item{
+       
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+
+
+
+.snip1135 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 26px 1.5em;
+  padding: 0;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: #fff;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color:#fff;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dashboard</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        background-color: black;
+        color: #fff;
+        width: 100%;
+        display: flex;
+    }
+
+    .title {
+
+        font-size: 24px;
+        line-height: 29px;
+        padding: 21px;
+
+    }
+
+    .menu {}
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu li a {
+        font-size: 16px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 26px;
+        line-height: 19px;
+    }
+
+    .menu li :hover,
+    .menu li a:hover {
+        border-bottom: 3px solid#fff;
+
+    }
+
+    .container {
+        padding: 42px;
+        background-color: #F2F2F2;
+
+    }
+
+    .overviewTitle {
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: bold;
+    }
+
+    .overview {
+        margin-left: -12.516px;
+        margin-right: -12.516px;
+        /*bs3 col 處理小孩左右貼邊的方式*/
+    }
+
+    .total {
+        width: 31.13333%;
+        float: left;
+        text-align: center;
+        background-color: #fff;
+        padding: 30px 68px;
+        margin: 0 1.1%;
+        
+    }
+
+    /* .total:nth-child(2){
+       margin: 0px 1.5%;
+
+    } */
+    .total-title{
+        font-size: 19px;
+        margin-bottom: 16px;
+    }
+    .total-number{
+        font-size: 42px;
+        color:#7ED321 ;
+    }
+    .activity {
+        height: 304px;
+        background-color: #fff;
+        margin: 18px 0px;
+    }
+    .orderList{
+       
+        background-color: #fff;
+        padding: 30px 40px;
+    }
+    .orderList h2 {
+        margin-bottom: 30px ;
+    }
+    .order-img{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        float: left;
+    }
+    .orderList-item-detail{
+        float: left;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .orderList-item{
+        margin: 10px 20px 10px 10px;
+    }
+    .orderList-item-title{
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .orderList-item-name,
+    .orderList-item-time{
+        font-size: 18px;
+       
+    }
+    .orderList-price{
+       padding-top: 10px;
+    }
+    .orderList-price-item{
+       
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+</style>
+
+<body>
+    <header class="navbar clearfix">
+        <div class="title">ShopName</div>
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ORDERS</a></li>
+            <li><a href="#">PRODUCT</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="overviewTitle">OVERVIEW</div>
+        <div class="overview clearfix">
+            <div class="total">
+                <div class="total-title">
+                    TOTAL REVENUE
+                </div>
+                <div class="total-number">
+                    54,540
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    TOTAL REVENUE
+                </div>
+                <div class="total-number">
+                    54,540
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    TOTAL REVENUE
+                </div>
+                <div class="total-number">
+                    54,540
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            activity
+        </div>
+        <div class="orderList clearfix">
+            <h2>Latest Orders</h2>
+
+            <div class="orderList-item">
+                <div class="order-img">
+                    <img src="#" alt="">
+                </div>
+                <div class="orderList-item-detail">
+                    <div class="orderList-item orderList-item-title">
+                        Vintage T-shirt
+                    </div>
+                    <div class="orderList-item orderList-item-time">
+                        2018/6/13 13:42
+                    </div>
+                    <div class="orderList-item orderList-item-name">
+                        belle Willis
+                    </div>
+                </div>
+                <div class="orderList-price">
+                    <div class="orderList-price-item">
+                            <p>Total </p><span>3200</span>
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+
+</body>
+
+</html>
